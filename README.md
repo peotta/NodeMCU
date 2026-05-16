@@ -84,9 +84,9 @@ O DHT22 é um sensor digital de temperatura e umidade. Ele foi escolhido por apr
 
 | DHT22 | NodeMCU ESP8266 |
 |---|---|
-| VCC | 3V3 | Vermelho |
-| DATA | D4 | Azul |
-| GND | GND | Preto |
+| VCC | 3V3 | Vermelho |  
+| DATA | D4 | Azul |  
+| GND | GND | Preto |  
 
 <img width="910" height="701" alt="image" src="https://github.com/user-attachments/assets/d9296e8b-7c91-43bc-9dac-015334fdad5a" />
 
