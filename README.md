@@ -2,7 +2,7 @@
 
 Projeto de monitoramento ambiental utilizando **NodeMCU ESP8266**, sensor **DHT22** e plataforma **Blynk IoT** para coleta, envio e visualização online de dados de **temperatura** e **umidade relativa do ar**.
 
-Autor: **Prof. Dr. Laerte Peotta de Melo**
+Autor: **Laerte Peotta de Melo**
 
 ---
 
@@ -87,6 +87,9 @@ O DHT22 é um sensor digital de temperatura e umidade. Ele foi escolhido por apr
 | VCC | 3V3 |
 | DATA | D4 |
 | GND | GND |
+
+<img width="910" height="701" alt="image" src="https://github.com/user-attachments/assets/d9296e8b-7c91-43bc-9dac-015334fdad5a" />
+
 
 > Observação: caso o DHT22 utilizado seja o sensor de 4 pinos sem placa auxiliar, recomenda-se utilizar um resistor de **10 kΩ** entre **VCC** e **DATA**. Em módulos DHT22 de 3 pinos, esse resistor normalmente já está integrado.
 
@@ -283,8 +286,6 @@ A biblioteca `ESP8266WiFi.h` é instalada junto com o pacote **esp8266 by ESP826
 
 ## 9. Código do Projeto
 
-> Atenção: não publique senhas reais de Wi-Fi nem o Auth Token do Blynk em repositórios públicos. Use variáveis, arquivo separado ou placeholders.
-
 Crie um arquivo chamado:
 
 ```text
@@ -449,27 +450,7 @@ Durante esse período, recomenda-se registrar:
 
 ---
 
-## 14. Estrutura Recomendada do Repositório
-
-```text
-monitoramento-ambiental-iot/
-├── README.md
-├── src/
-│   └── monitoramento_ambiental.ino
-├── imagens/
-│   ├── circuito.png
-│   ├── dashboard-blynk.png
-│   └── montagem-fisica.png
-├── docs/
-│   ├── configuracao-blynk.md
-│   └── relatorio.md
-└── dados/
-    └── medicoes-semana.csv
-```
-
----
-
-## 15. Sugestão de Tabela para os Dados
+## 14. Sugestão de Tabela para os Dados
 
 ```csv
 data,hora,temperatura_c,umidade_percentual
@@ -480,9 +461,9 @@ data,hora,temperatura_c,umidade_percentual
 
 ---
 
-## 16. Possíveis Erros e Soluções
+## 15. Possíveis Erros e Soluções
 
-### Erro: `ESP8266WiFi.h: No such file or directory`
+### Erro: `ESP8266WiFi.h: No such file or directory`  
 
 **Causa provável:** pacote ESP8266 não instalado.
 
@@ -490,7 +471,7 @@ data,hora,temperatura_c,umidade_percentual
 
 ---
 
-### Erro: `BlynkSimpleEsp8266.h: No such file or directory`
+### Erro: `BlynkSimpleEsp8266.h: No such file or directory`  
 
 **Causa provável:** biblioteca Blynk não instalada.
 
@@ -498,15 +479,15 @@ data,hora,temperatura_c,umidade_percentual
 
 ---
 
-### Erro: `DHT.h: No such file or directory`
-
+### Erro: `DHT.h: No such file or directory`  
+ 
 **Causa provável:** biblioteca DHT não instalada.
 
 **Solução:** instalar **DHT sensor library by Adafruit** e **Adafruit Unified Sensor**.
 
 ---
 
-### Sensor retorna `nan`
+### Sensor retorna `nan`  
 
 **Causa provável:** ligação incorreta ou falha na leitura.
 
@@ -520,7 +501,7 @@ Verifique:
 
 ---
 
-### Dados não aparecem no Blynk
+### Dados não aparecem no Blynk  
 
 Verifique:
 
@@ -532,7 +513,7 @@ Verifique:
 
 ---
 
-## 17. Segurança
+## 16. Segurança
 
 Não publique no GitHub:
 
@@ -550,7 +531,7 @@ char pass[] = "SENHA_DA_REDE_WIFI";
 
 ---
 
-## 18. Resultados Esperados
+## 17. Resultados Esperados
 
 Ao final do projeto, espera-se obter:
 
@@ -563,7 +544,7 @@ Ao final do projeto, espera-se obter:
 
 ---
 
-## 19. Conclusão
+## 18. Conclusão
 
 O projeto demonstra a aplicação prática de conceitos de Internet das Coisas, sensores ambientais, comunicação Wi-Fi e visualização online de dados. A solução proposta utiliza componentes de baixo custo e permite acompanhar, em tempo quase real, as condições ambientais de uma região.
 
