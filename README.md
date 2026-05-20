@@ -5,7 +5,7 @@ Repositório de referência: `https://github.com/peotta/NodeMCU`
 
 Este documento consolida o material necessário para configurar corretamente o projeto de monitoramento ambiental usando **NodeMCU ESP8266**, **sensor DHT22**, **Google Sheets**, **Google Apps Script** e **GitHub Pages**.
 
-> Observação de segurança: este material utiliza **placeholders** para senha Wi-Fi, tokens e credenciais. Não publique senhas reais, tokens do Blynk ou informações privadas em repositórios públicos.
+> Observação de segurança: este material utiliza **placeholders** para senha Wi-Fi, tokens e credenciais. Não publique senhas reais, tokens ou informações privadas em repositórios públicos.
 
 ---
 
