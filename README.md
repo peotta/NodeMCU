@@ -77,6 +77,8 @@ Caso o DHT22 seja o sensor de **4 pinos**, recomenda-se usar um resistor de **10
 3V3 ─── resistor 10 kΩ ─── DATA
 ```
 
+<img width="887" height="747" alt="image" src="https://github.com/user-attachments/assets/0ec46f72-1280-4e39-8112-d9330168a9d2" />
+
 ---
 
 ## 5. Configuração da Arduino IDE
