@@ -19,18 +19,24 @@ A planilha é publicada em formato **CSV**, e uma página em **HTML/CSS/JavaScri
 
 ## 2. Arquitetura Final
 
-```text
-DHT22
-  ↓
-NodeMCU ESP8266
-  ↓ Wi-Fi
-Google Apps Script
-  ↓
-Google Sheets
-  ↓ CSV público
-GitHub Pages
-  ↓
-Dashboard público com gráfico
+```mermaid
+flowchart TD
+    A["Sensor DHT22<br/>Temperatura e umidade"] --> B["NodeMCU ESP8266<br/>Leitura dos dados ambientais"]
+    B --> C["Rede Wi-Fi<br/>Conexão com a Internet"]
+    C --> D["Google Apps Script<br/>Recebe os dados via HTTP GET"]
+    D --> E["Google Sheets<br/>Armazena data/hora, temperatura e umidade"]
+    E --> F["CSV Público<br/>Planilha publicada na Web"]
+    F --> G["GitHub Pages<br/>Página HTML lê os dados da planilha"]
+    G --> H["Dashboard Público<br/>Cards, tabela e gráfico histórico"]
+
+    style A fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
+    style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px
+    style C fill:#fef9c3,stroke:#ca8a04,stroke-width:2px
+    style D fill:#fae8ff,stroke:#9333ea,stroke-width:2px
+    style E fill:#dcfce7,stroke:#15803d,stroke-width:2px
+    style F fill:#fef3c7,stroke:#d97706,stroke-width:2px
+    style G fill:#e0e7ff,stroke:#4f46e5,stroke-width:2px
+    style H fill:#fee2e2,stroke:#dc2626,stroke-width:2px
 ```
 
 ---
