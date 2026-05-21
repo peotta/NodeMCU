@@ -1,7 +1,8 @@
 # Projeto NodeMCU: Monitoramento Ambiental com ESP8266, DHT22, Google Sheets e GitHub Pages
 
 Autor: **Prof. Dr. Laerte Peotta de Melo**  
-Repositório de referência: `https://github.com/peotta/NodeMCU`
+Repositório de referência: `https://github.com/peotta/NodeMCU`  
+Site com os dados de Monitoramento `https://peotta.github.io/dht22.html`  
 
 Este documento consolida o material necessário para configurar corretamente o projeto de monitoramento ambiental usando **NodeMCU ESP8266**, **sensor DHT22**, **Google Sheets**, **Google Apps Script** e **GitHub Pages**.
 
