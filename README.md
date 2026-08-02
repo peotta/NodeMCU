@@ -1077,27 +1077,7 @@ Substituir `LINK_CSV_DA_PLANILHA` pelo link CSV publicado da planilha.
 
 ---
 
-## 14. Estrutura Recomendada do Repositório
-
-```text
-NodeMCU/
-├── README.md
-├── index.html
-├── src/
-│   └── monitoramento_ambiental_google_sheets.ino
-├── scripts/
-│   └── google-apps-script.js
-├── docs/
-│   └── configuracao-projeto.md
-└── imagens/
-    ├── circuito.png
-    ├── montagem-real.jpg
-    └── dashboard.png
-```
-
----
-
-## 15. Configuração do GitHub Pages
+## 14. Configuração do GitHub Pages
 
 No repositório, acessar:
 
@@ -1121,7 +1101,7 @@ https://peotta.github.io/NodeMCU/
 
 ---
 
-## 16. Checklist Final
+## 15. Checklist Final
 
 ### Hardware
 
@@ -1159,7 +1139,7 @@ https://peotta.github.io/NodeMCU/
 
 ---
 
-## 17. Testes Esperados
+## 16. Testes Esperados
 
 ### Monitor Serial
 
@@ -1196,7 +1176,7 @@ O GitHub Pages deve apresentar:
 
 ---
 
-## 18. Cuidados de Segurança
+## 17. Cuidados de Segurança
 
 Não publicar:
 
@@ -1215,6 +1195,6 @@ const char* GOOGLE_SCRIPT_URL = "URL_DO_SEU_APPS_SCRIPT";
 
 ---
 
-## 19. Conclusão
+## 18. Conclusão
 
 Com esta configuração, o projeto deixa de depender de uma plataforma IoT fechada para visualização pública. O **ESP8266** envia automaticamente os dados para o **Google Sheets**, e o **GitHub Pages** apresenta uma interface pública com gráfico e tabela, permitindo que qualquer pessoa consulte as medições de temperatura e umidade pela web.
