@@ -1198,3 +1198,9 @@ const char* GOOGLE_SCRIPT_URL = "URL_DO_SEU_APPS_SCRIPT";
 ## 18. Conclusão
 
 Com esta configuração, o projeto deixa de depender de uma plataforma IoT fechada para visualização pública. O **ESP8266** envia automaticamente os dados para o **Google Sheets**, e o **GitHub Pages** apresenta uma interface pública com gráfico e tabela, permitindo que qualquer pessoa consulte as medições de temperatura e umidade pela web.
+
+---
+
+## 19. Uso de Inteligência Artificial
+
+Em conformidade com a Política de Uso Responsável da IA da FT/UnB, declara-se que este material foi elaborado com apoio de ferramentas de inteligência artificial generativa (Claude, ChatGPT e Gemini), sob revisão e responsabilidade do professor.
